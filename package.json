@@ -3,7 +3,13 @@
   "main": "./lib/sermon",
   "version": "0.1.0",
   "description": "A serial monitor for Atom",
-  "keywords": [],
+  "keywords": [
+    "serial",
+    "embedde",
+    "monitor",
+    "mbed",
+    "arduino"
+  ],
   "activationCommands": {
     "atom-workspace": "sermon:toggle"
   },
