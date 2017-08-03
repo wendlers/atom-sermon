@@ -24,6 +24,8 @@ Install from git:
 
 ## Usage
 
-Open the settings dialog with `strg+alt+o`, select port and baudrate,
-then hit connect. The settings from the dialog are stored on a per project
+Open the settings dialog with `shift+alt+m`, select port and baudrate,
+then hit connect.
+
+The settings from the dialog are stored on a per project
 basis in the the file `sermon_settings.json`.
