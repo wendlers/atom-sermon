@@ -1,0 +1,29 @@
+{
+  "name": "sermon",
+  "main": "./lib/sermon",
+  "version": "0.0.0",
+  "description": "A serial monitor for Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "sermon:toggle"
+  },
+  "repository": "https://github.com/atom/atom-sermon",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0"
+  },
+  "package-deps": [
+    "termination"
+  ],
+  "consumedServices": {
+    "runInTerminal": {
+      "versions": {
+        "^0.14.5": "consumeRunInTerminal"
+      }
+    }
+  }
+}
