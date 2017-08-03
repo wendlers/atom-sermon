@@ -1,10 +1,9 @@
 {
   "name": "sermon",
   "main": "./lib/sermon",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A serial monitor for Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "sermon:toggle"
   },
